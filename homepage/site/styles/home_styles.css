@@ -1,0 +1,17 @@
+.header{
+    
+}
+.body {
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1ft;
+}
+#hero-img {
+    width: 80%;
+    grid
+ }
+ .footer{
+    
+ }
+ .social{
+    width: 100px;
+ }
