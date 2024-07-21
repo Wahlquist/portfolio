@@ -1,5 +1,6 @@
-
-
+.header{
+    
+}
 :root {
  
     --primary-color: #2C90F4   ;
@@ -27,12 +28,14 @@ body {
     margin: 0;
 }
 #hero-img {
-    width: 100%;
+    width: 600px;
  
  }
  .msg{
     background-color: whitesmoke;
     padding: 35px;
+    grid-column-end: 5
+;
 
 }
 
@@ -96,7 +99,7 @@ main{
     justify-content: center;
 }
 #hero-box{
-    grid-column: 3/5;
+    grid-column: 1/3;
     grid-row: auto;
 }
 .foot:hover{
@@ -104,7 +107,11 @@ main{
     background-color: rgb(255, 255, 255);
     color: #764134;
 }
-#blue:hover {
+nav b:hover {
     background-color: rgb(255, 255, 255);
     color: #764134;
+}
+#main-part{
+    grid-template-columns: fr fr ;
+
 }
